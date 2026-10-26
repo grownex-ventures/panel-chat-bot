@@ -1,0 +1,37 @@
+{
+  "name": "panel-chat-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Telegram bot for SMM panels featuring natural language ordering, real-time status tracking, AES-256 encrypted credentials, and elegant mobile-aligned card formatting.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grownex-ventures/panel-chat-bot.git"
+  },
+  "keywords": [
+    "telegram-bot",
+    "smm-panel",
+    "ai-agent",
+    "grammy",
+    "openai",
+    "automation",
+    "mysql",
+    "nodejs"
+  ],
+  "author": "Grownex Ventures",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "grammy": "^1.46.0",
+    "mysql2": "^3.11.0",
+    "openai": "^4.67.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
