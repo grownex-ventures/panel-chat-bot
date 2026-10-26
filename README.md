@@ -104,9 +104,9 @@ DB_PASSWORD=your_mysql_password
 DB_NAME=provider_bot
 
 # AI / LLM Configuration (OpenAI Compatible)
-LLM_BASE_URL=https://integrate.api.nvidia.com/v1
+LLM_BASE_URL=https://api.openai.com/v1
 LLM_API_KEY=your_llm_api_key
-LLM_MODEL=nvidia/nemotron-3-ultra-550b-a55b
+LLM_MODEL=gpt-4o-mini
 
 # AES-256 Encryption Key (64 hex characters generated above)
 ENCRYPTION_KEY=your_64_character_hex_key_here
